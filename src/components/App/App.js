@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import './App.css';
 import {Template} from "../BaseTemplate/Template";
+import {Landing} from "../Landing/Landing";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       {/*    Learn React*/}
       {/*  </a>*/}
       {/*</header>*/}
-      <Template/>
+      <Landing/>
     </div>
   );
 }

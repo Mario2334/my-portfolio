@@ -10,8 +10,8 @@ export let Template = (props) => {
         setup_dropdown();
     });
     setup_dropdown();
-    let motto_options = options;
-    motto_options.startDelay = 2000;
+    let motto_options = Object.assign({},options);
+    motto_options.startDelay = 1000;
     motto_options.loop = false;
     motto_options.onComplete = function (self) {
         self.strings = ["Hustler  Hacker  Hipster"];

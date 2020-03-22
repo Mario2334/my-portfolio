@@ -4,6 +4,8 @@ import Pic2 from "../../assets/images/Pic2.jpeg";
 import Ezedox from "../../assets/images/Ezedox.png";
 import Work2 from "../../assets/images/Work2.jpeg";
 import WorkImage from "../../assets/images/WorkImage.jpeg"
+
+
 export let Landing = (props) =>{
     return(
         <Template>

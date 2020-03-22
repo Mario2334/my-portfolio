@@ -17,29 +17,29 @@ export let Template = (props) => {
         self.strings = ["Hustler  Hacker  Hipster"];
     };
     return (
-        <React.Fragment>
+        <div className="App">
             <div data-offset="30" data-spy="scroll" data-target="#navigation" id="body">
-                <div className="menu-overlay"/>
+                    <div className="menu-overlay"/>
 
-                <NavDrop/>
+                    <NavDrop/>
 
-                <div className="container-fluid d-flex" id="header">
-                    <div className="row align-items-center justify-content-center text-center">
-                        <div>
-                            <h1><Typed {...options}
-                                       strings={ ["Sanket Mokashi","Software Developer"]}/></h1>
-                            <hr/>
-                            <h4>
-                                <Typed {...motto_options} strings={["Hipster" , "Hacker" , "Hustler"]}/>
-                            </h4>
+                    <div className="container-fluid d-flex" id="header">
+                        <div className="row align-items-center justify-content-center text-center">
+                            <div>
+                                <h1><Typed {...options}
+                                           strings={ ["Sanket Mokashi","Software Developer"]}/></h1>
+                                <hr/>
+                                <h4>
+                                    <Typed {...motto_options} strings={["Hipster" , "Hacker" , "Hustler"]}/>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
 
-                    <div id="overlay"/>
+                        <div id="overlay"/>
+                    </div>
+                    {props.children}
                 </div>
-                {props.children}
-            </div>
-            <Footer/>
-        </React.Fragment>
+                <Footer/>
+        </div>
     )
 }

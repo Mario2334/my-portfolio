@@ -188,7 +188,10 @@ export let Landing = (props) =>{
                                     </h6>
 
                                     <ul>
-                                        <li><p>Responsible for developing Enterprise Application For</p></li>
+                                        <li><p>Responsible for developing Enterprise Applications from Scratch for clients like SendSafely, First Tech</p></li>
+                                        <li><p>Lead a Team For Full Stack Development on Tech React, Django and Postgres</p></li>
+                                        <li><p></p></li>
+
                                     </ul>
                                 </div>
 

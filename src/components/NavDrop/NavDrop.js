@@ -15,7 +15,7 @@ export let NavDrop = (props) => {
             <ul className="nav-content dropdown-menu" id="navigation">
                 <li><a className="nav-link" href="#header">Home</a></li>
                 <li><a className="nav-link" href="#about">About</a></li>
-                <li className="dropdown"><a className="nav-link dropdown-toggle" href="#" id="navbardrop">CV</a>
+                <li><a className="nav-link dropdown-toggle" id="dropdown-link" href="#root">CV</a>
                     <div id="dropdown-menu">
                         <ul>
                             <li><a className="dropdown-item" href="#cv">Skills</a></li>

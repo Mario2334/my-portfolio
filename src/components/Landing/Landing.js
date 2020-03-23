@@ -63,7 +63,7 @@ export let Landing = (props) =>{
                                     <h4>C++</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "70%"}}></div>
+                                        <div className="progress-bar" style={{width: "70%"}}/>
                                     </div>
                                 </div>
 
@@ -71,7 +71,7 @@ export let Landing = (props) =>{
                                     <h4>Java</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "65%"}}></div>
+                                        <div className="progress-bar" style={{width: "65%"}}/>
                                     </div>
                                 </div>
 
@@ -79,7 +79,7 @@ export let Landing = (props) =>{
                                     <h4>HTML</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "100%"}}></div>
+                                        <div className="progress-bar" style={{width: "100%"}}/>
                                     </div>
                                 </div>
 
@@ -123,7 +123,7 @@ export let Landing = (props) =>{
                                     <h4>Flask/Django</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "90%"}}></div>
+                                        <div className="progress-bar" style={{width: "90%"}}/>
                                     </div>
                                 </div>
 
@@ -131,7 +131,7 @@ export let Landing = (props) =>{
                                     <h4>React JS</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "80%"}}></div>
+                                        <div className="progress-bar" style={{width: "80%"}}/>
                                     </div>
                                 </div>
 
@@ -139,7 +139,7 @@ export let Landing = (props) =>{
                                     <h4>Node JS</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "60%"}}></div>
+                                        <div className="progress-bar" style={{width: "60%"}}/>
                                     </div>
                                 </div>
 
@@ -147,7 +147,7 @@ export let Landing = (props) =>{
                                     <h4>Agile</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "80%"}}></div>
+                                        <div className="progress-bar" style={{width: "80%"}}/>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ export let Landing = (props) =>{
                                     <h4>English (Fluent)</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "100%"}}></div>
+                                        <div className="progress-bar" style={{width: "100%"}}/>
                                     </div>
                                 </div>
 
@@ -167,7 +167,7 @@ export let Landing = (props) =>{
                                     <h4>Hindi(Fluent</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "100%"}}></div>
+                                        <div className="progress-bar" style={{width: "100%"}}/>
                                     </div>
                                 </div>
                             </div>
@@ -186,14 +186,16 @@ export let Landing = (props) =>{
                                 <div className="box">
                                     <h4>Senior Software developer(Lead)</h4>
 
-                                    <h6><a href="https://decisionminds.com/">Decision Minds</a> &bull;&emsp; Current
+                                    <h6><a href="https://decisionminds.com/">Decision Minds</a> &nbsp;&emsp;&bull;&emsp; Current
                                     </h6>
 
                                     <ul>
-                                        <li><p>Responsible for developing Enterprise Applications from Scratch for clients like SendSafely, First Tech</p></li>
-                                        <li><p>Lead a Team For Full Stack Development on Tech React, Django and Postgres</p></li>
-                                        <li><p></p></li>
-
+                                        <li><p>Responsible for developing Scalable Enterprise Applications from Scratch for clients like SendSafely, First Tech</p></li>
+                                        <li>
+                                            <p>Involved in building Database Migration Application capable of migrating a over 100s gbs of data while you are sipping ☕</p>
+                                        </li>
+                                        <li><p>Leading a Team For Full Stack Development on Tech React, Django and Postgres</p></li>
+                                        <li><p>Follow Scrum and ability to handle team using jira</p></li>
                                     </ul>
                                 </div>
 
@@ -202,8 +204,13 @@ export let Landing = (props) =>{
 
                                     <h6>Uberry Switzerland&nbsp;&emsp;&bull;&emsp; October 2019</h6>
 
-                                    <p>Developing Various applications in django, Angular&nbsp;and
-                                        Postgres..</p>
+                                    <ul>
+                                        <li><p>Developed E-Commerce application for delivering in django, Angular and Postgres..</p></li>
+                                        <li><p>Demonstrated Ability to lead a remote using scrum</p></li>
+                                        <li><p>Contributed Over Full Stack and was central part of handling the product</p></li>
+
+                                    </ul>
+
                                 </div>
 
                                 <div className="box">
@@ -289,7 +296,7 @@ export let Landing = (props) =>{
             <div className="container-fluid" id="contact">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-2 left"></div>
+                        <div className="col-lg-2 left"/>
 
                         <div className="col-lg-8 offset-lg-1">
                             <h4>Let&#39;s get in touch</h4>
@@ -320,7 +327,7 @@ export let Landing = (props) =>{
                                     htmlFor="subject">Subject
                                     *</label></div>
 
-                                <div className="msg"><textarea id="message" name="message"></textarea><label
+                                <div className="msg"><textarea id="message" name="message"/><label
                                     className="label"
                                     htmlFor="message">Message
                                     *</label></div>
@@ -337,4 +344,4 @@ export let Landing = (props) =>{
             </div>
         </Template>
     )
-}
+};

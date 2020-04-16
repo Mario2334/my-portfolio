@@ -3,8 +3,10 @@ import {Template} from "../BaseTemplate/Template";
 import Pic2 from "../../assets/images/Pic2.jpeg";
 import Ezedox from "../../assets/images/Ezedox.png";
 import Work2 from "../../assets/images/Work2.jpeg";
-import WorkImage from "../../assets/images/WorkImage.jpeg"
-
+import WorkImage from "../../assets/images/WorkImage.jpeg";
+import repusight from "../../assets/images/repusight.png";
+import platformcore from "../../assets/images/platformCore.jpg";
+import datahub from "../../assets/images/datahub2.png";
 
 export let Landing = (props) =>{
     return(
@@ -287,6 +289,26 @@ export let Landing = (props) =>{
                             <div className="overlay">
                                 <h3 className="project-title"><a href="https://github.com/Mario2334/my_jobs">Job
                                     Scraper</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <img className="portfolio-image" src={repusight}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://www.repusight.com/">Repusight Dashboard</a></h3>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <img className="portfolio-image" src={platformcore}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://platformcore.com/">PlatformCore</a></h3>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <img className="portfolio-image" src={datahub}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://www.decisionminds.com/datahub.html">Datahub</a></h3>
                             </div>
                         </div>
                     </div>

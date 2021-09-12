@@ -7,6 +7,9 @@ import WorkImage from "../../assets/images/WorkImage.jpeg";
 import repusight from "../../assets/images/repusight.png";
 import platformcore from "../../assets/images/platformCore.jpg";
 import datahub from "../../assets/images/datahub2.png";
+import swindle from "../../assets/images/swindle.jpg";
+import rudiger from "../../assets/images/rudiger.png";
+import dm from "../../assets/images/dm.jpeg";
 
 export let Landing = (props) =>{
     return(
@@ -192,12 +195,29 @@ export let Landing = (props) =>{
                                     </h6>
 
                                     <ul>
-                                        <li><p>Responsible for developing Scalable Enterprise Applications from Scratch for clients like SendSafely, First Tech</p></li>
-                                        <li>
-                                            <p>Involved in building Database Migration Application capable of migrating a over 100s gbs of data while you are sipping ☕</p>
-                                        </li>
-                                        <li><p>Leading a Team For Full Stack Development on Tech React, Django and Postgres</p></li>
-                                        <li><p>Follow Scrum and ability to handle team using jira</p></li>
+                                        <li><p>Implemented and Developed Log aggregation tool to get logs and analyze status and realtime log
+                                            analysis with anomaly detection using kafka , elk
+                                            and NLP.</p></li>
+                                        <li><p>Developed and Owned Event based Architecture and implementation to monitor resources on PAAS Skills
+                                            platform Like Aws and Azure. Created the
+                                            application for Western Union</p></li>
+                                        <li><p>Responsible for developing Scalable Enterprise
+                                            Applications from Scratch for clients like SendSafely,
+                                            Excellent
+                                            First Tech, Vmware and Western Union</p></li>
+                                        <li><p>Involved in building Database Migration Application
+                                            capable of migrating a over 100s gbs of data while
+                                            Excellent
+                                            you are sipping ☕</p></li>
+                                        <li><p>Leading a Team For Full Stack Development on Tech
+                                            React, Django and Postgres</p></li>
+                                        <li><p>Follow Scrum and ability to handle team using jira.</p></li>
+                                        {/*<li><p>Responsible for developing Scalable Enterprise Applications from Scratch for clients like SendSafely, First Tech</p></li>*/}
+                                        {/*<li>*/}
+                                        {/*    <p>Involved in building Database Migration Application capable of migrating a over 100s gbs of data while you are sipping ☕</p>*/}
+                                        {/*</li>*/}
+                                        {/*<li><p>Leading a Team For Full Stack Development on Tech React, Django and Postgres</p></li>*/}
+                                        {/*<li><p>Follow Scrum and ability to handle team using jira</p></li>*/}
                                     </ul>
                                 </div>
 
@@ -268,6 +288,26 @@ export let Landing = (props) =>{
                 <h2>Latest projects</h2>
 
                 <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
+                                                                          src={dm}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://www.decisionminds.com/">Decision Minds</a></h3>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
+                                                                          src={rudiger}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://www.ruediger-woehrl.com/">Rudiger Woehrl</a></h3>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
+                                                                          src={swindle}/>
+                            <div className="overlay">
+                                <h3 className="project-title"><a href="https://chrome.google.com/webstore/detail/swindle/fbehneehbojmfglgfccgkaegpnnaagkk?hl=en">Swindle</a></h3>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
                                                                           src={Ezedox}/>

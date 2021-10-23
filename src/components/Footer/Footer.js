@@ -17,12 +17,6 @@ export let Footer = (props) =>{
               </div>
 
               <div>
-                  <h4>Phone</h4>
-
-                  <p>+91-8484996704</p>
-              </div>
-
-              <div>
                   <h4>Social</h4>
                   <a href="https://in.linkedin.com/in/sanket-mokashi-python-dev/" target="_blank">
                       <i className="fab fa-linkedin-in"></i>

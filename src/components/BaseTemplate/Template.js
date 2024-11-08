@@ -2,7 +2,7 @@ import React, {useEffect , useState} from 'react';
 import {setup_dropdown} from "../Utils/Setup";
 import {NavDrop} from "../NavDrop/NavDrop";
 import {Footer} from "../Footer/Footer";
-import Typed from 'react-typed';
+import { ReactTyped } from 'react-typed';
 import {options} from "../Utils/Constants";
 
 export let Template = (props) => {
@@ -26,11 +26,11 @@ export let Template = (props) => {
                     <div className="container-fluid d-flex" id="header">
                         <div className="row align-items-center justify-content-center text-center">
                             <div>
-                                <h1><Typed {...options}
+                                <h1><ReactTyped {...options}
                                            strings={ ["Sanket Mokashi","Software Developer"]}/></h1>
                                 <hr/>
                                 <h4>
-                                    <Typed {...motto_options} strings={["Hipster" , "Hacker" , "Hustler"]}/>
+                                    <ReactTyped {...motto_options} strings={["Hipster" , "Hacker" , "Hustler"]}/>
                                 </h4>
                             </div>
                         </div>

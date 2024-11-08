@@ -189,16 +189,100 @@ export let Landing = (props) =>{
                             <div className="exp">
                                 <h4>Professional</h4>
                                 <div className="box">
-                                    <h4>Senior Software developer(Lead)</h4>
+                                    <h4>Senior Software Engineer</h4>
 
-                                    <h6><a href="https://decisionminds.com/">Decision Minds</a> &nbsp;&emsp;&bull;&emsp; Current
+                                    <h6><a href="https://www.amazon.jobs/content/en/teams/devices-and-services/lab126">Amazon Lab126, Bengaluru, India
+                                    </a> &nbsp;&emsp;&bull;&emsp; Current
                                     </h6>
 
                                     <ul>
-                                        <li><p>Implemented and Developed Log aggregation tool to get logs and analyze status and realtime log
+                                        <li><p>Led India team to implement product integrity and LLM
+                                            applications for performance and reliability on
+                                            amazon devices.</p></li>
+                                        <li><p>Implemented data pipelines for ingesting documents
+                                            from Confluence , MySQL server and WIKI pages to serve
+                                            as a datasource to Amazon Q LLM model.</p></li>
+                                        <li><p>Responsible for development for real time value
+                                            transactions service.</p></li>
+                                        <li><p>Worked on implementing infrastructure for
+                                            implementing event based architecture and added
+                                            data reconciliation.</p></li>
+                                        <li><p>Implemented device monitoring system for
+                                            detecting device temperature and humidity.
+                                            Implemented microservices in python and java with
+                                            mysql aurora as database.</p></li>
+                                        <li><p>Implemented infrastructure using cdk and created
+                                            auto CICD pipelines for these microservices.</p></li>
+                                        <li><p>Promoted technical leadership to entry-level and
+                                            junior engineers in complex enterprise system
+                                            environment.</p></li>
+                                        <li><p>Coordinated with other engineers to evaluate and
+                                            improve software and hardware interfaces</p></li>
+                                    </ul>
+                                </div>
+                                <div className="box">
+                                    <h4>Technical Lead</h4>
+
+                                    <h6><a href="https://www.leo1.in/">Leo1, Mumbai, India
+                                    </a> &nbsp;&emsp;&bull;&emsp; June 2023
+                                    </h6>
+
+                                    <ul>
+                                        <li><p>Led two teams for delivering payment services and
+                                            fund management service for NBFC.</p></li>
+                                        <li><p>Responsible for development for real time value
+                                            transactions service.</p></li>
+                                        <li><p>Responsible for moving all services from monolithic
+                                            to micro services</p></li>
+                                        <li><p>Brought new ideas on using tools and frameworks to
+                                            support micro service architecture and facilitated
+                                            internal tools using retool</p></li>
+                                        <li><p>Managed team performance by training,
+                                            mentoring, disciplining, and motivating employees</p></li>
+                                        <li><p>Supervised end-user support efforts, designing
+                                            policies to establish consistent service guidelines and
+                                            reliable ticket resolution.</p></li>
+                                    </ul>
+                                </div>
+                                <div className="box">
+                                    <h4>Technical Lead(Contract)</h4>
+
+                                    <h6><a href="https://www.pakama.com/">Pakama athletics
+                                        gmbh</a> &nbsp;&emsp;&bull;&emsp; Current
+                                    </h6>
+
+                                    <ul>
+                                        <li><p>Implemented and developed Backend Architecture
+                                            for fitness platform which had Java, Kotlin, Spring
+                                            Boot, Rust, Postgresql and Vue CMS as tech stack.</p></li>
+                                        <li><p>Used AWS Platform to serve 10k users , I deployed
+                                            the application using docker, lambda , ECS and RDS
+                                            implementation for rapid scaling</p></li>
+                                        <li><p>Implemented features for Kotlin and Swift Fitness
+                                            App like integrating firebase dynamic links ,
+                                            calendar export for class scheduling</p></li>
+                                        <li><p>Implemented Event Based Architecture for
+                                            Notifications using lambda function and rust</p></li>
+                                        <li><p>Leading a Team For Full Stack Development on Tech
+                                            React, Django and Postgres</p></li>
+                                        <li><p>Created Telegram bot to implement fitness related
+                                            queries using python.</p></li>
+                                    </ul>
+                                </div>
+                                <div className="box">
+                                    <h4>Senior Software developer(Lead)</h4>
+
+                                    <h6><a href="https://decisionminds.com/">Decision
+                                        Minds</a> &nbsp;&emsp;&bull;&emsp; February 2022
+                                    </h6>
+
+                                    <ul>
+                                        <li><p>Implemented and Developed Log aggregation tool to get logs and analyze
+                                            status and realtime log
                                             analysis with anomaly detection using kafka , elk
                                             and NLP.</p></li>
-                                        <li><p>Developed and Owned Event based Architecture and implementation to monitor resources on PAAS Skills
+                                        <li><p>Developed and Owned Event based Architecture and implementation to
+                                            monitor resources on PAAS Skills
                                             platform Like Aws and Azure. Created the
                                             application for Western Union</p></li>
                                         <li><p>Responsible for developing Scalable Enterprise
@@ -227,9 +311,11 @@ export let Landing = (props) =>{
                                     <h6>Uberry Switzerland&nbsp;&emsp;&bull;&emsp; October 2019</h6>
 
                                     <ul>
-                                        <li><p>Developed E-Commerce application for delivering in django, Angular and Postgres..</p></li>
+                                        <li><p>Developed E-Commerce application for delivering in django, Angular and
+                                            Postgres..</p></li>
                                         <li><p>Demonstrated Ability to lead a remote using scrum</p></li>
-                                        <li><p>Contributed Over Full Stack and was central part of handling the product</p></li>
+                                        <li><p>Contributed Over Full Stack and was central part of handling the
+                                            product</p></li>
 
                                     </ul>
 
@@ -282,7 +368,7 @@ export let Landing = (props) =>{
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
             <div className="container-fluid" id="portfolio">
                 <h2>Latest projects</h2>
@@ -292,19 +378,23 @@ export let Landing = (props) =>{
                         <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
                                                                           src={dm}/>
                             <div className="overlay">
-                                <h3 className="project-title"><a href="https://www.decisionminds.com/">Decision Minds</a></h3>
+                                <h3 className="project-title"><a href="https://www.decisionminds.com/">Decision
+                                    Minds</a></h3>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
                                                                           src={rudiger}/>
                             <div className="overlay">
-                                <h3 className="project-title"><a href="https://www.ruediger-woehrl.com/">Rudiger Woehrl</a></h3>
+                                <h3 className="project-title"><a href="https://www.ruediger-woehrl.com/">Rudiger
+                                    Woehrl</a></h3>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-xs-12"><img className="project-work-image"
                                                                           src={swindle}/>
                             <div className="overlay">
-                                <h3 className="project-title"><a href="https://chrome.google.com/webstore/detail/swindle/fbehneehbojmfglgfccgkaegpnnaagkk?hl=en">Swindle</a></h3>
+                                <h3 className="project-title"><a
+                                    href="https://chrome.google.com/webstore/detail/swindle/fbehneehbojmfglgfccgkaegpnnaagkk?hl=en">Swindle</a>
+                                </h3>
                             </div>
                         </div>
                     </div>

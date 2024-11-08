@@ -3,16 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "file-loader": "^6.2.0",
-    "hookrouter": "^1.2.3",
-    "jquery": "^3.6.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "react-typed": "^1.2.0",
+    "file-loader": "6.2.0",
+    "react-router-dom": "6.28.0",
+    "jquery": "3.7.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "5.0.1",
+    "react-typed": "^2.0.12",
     "url-loader": "^4.1.1"
   },
   "scripts": {

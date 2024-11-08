@@ -3,7 +3,6 @@ import $ from "jquery";
 export let setup_dropdown = ()=>{
     $('#navigation a').on('click', function(e) {
         e.preventDefault();
-        var hash = this.hash;
 
         $('html, body').animate({
             scrollTop: $(this.hash).offset().top

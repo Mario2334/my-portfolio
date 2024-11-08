@@ -60,15 +60,15 @@ export let Landing = (props) =>{
                                     <h4>Python</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "80%"}}/>
+                                        <div className="progress-bar" style={{width: "90%"}}/>
                                     </div>
                                 </div>
 
                                 <div className="skill-item">
-                                    <h4>C++</h4>
+                                    <h4>Rust</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "70%"}}/>
+                                        <div className="progress-bar" style={{width: "80%"}}/>
                                     </div>
                                 </div>
 
@@ -76,7 +76,7 @@ export let Landing = (props) =>{
                                     <h4>Java</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "65%"}}/>
+                                        <div className="progress-bar" style={{width: "70%"}}/>
                                     </div>
                                 </div>
 
@@ -108,7 +108,7 @@ export let Landing = (props) =>{
                                     <h4>Mysql</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "60%"}}/>
+                                        <div className="progress-bar" style={{width: "80%"}}/>
                                     </div>
                                 </div>
 
@@ -116,7 +116,7 @@ export let Landing = (props) =>{
                                     <h4>Nosql</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "60%"}}/>
+                                        <div className="progress-bar" style={{width: "760%"}}/>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ export let Landing = (props) =>{
                                     <h4>Node JS</h4>
 
                                     <div className="progress">
-                                        <div className="progress-bar" style={{width: "60%"}}/>
+                                        <div className="progress-bar" style={{width: "70%"}}/>
                                     </div>
                                 </div>
 

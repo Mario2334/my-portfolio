@@ -1,6 +1,6 @@
 import React from "react";
 import {Template} from "../BaseTemplate/Template";
-import Pic2 from "../../assets/images/Pic2.jpeg";
+import Pic3 from "../../assets/images/Pic3.jpeg";
 import Ezedox from "../../assets/images/Ezedox.png";
 import Work2 from "../../assets/images/Work2.jpeg";
 import WorkImage from "../../assets/images/WorkImage.jpeg";
@@ -18,28 +18,23 @@ export let Landing = (props) =>{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2 col-sm-12 picture"><img alt="picture" className="rounded-circle"
-                                                                         src={Pic2}
+                                                                         src={Pic3}
                                                                          style={{height: "200px"}}/></div>
 
                         <div className="col-md-9 col-sm-12 offset-md-1">
                             <h2>About</h2>
 
-                            <p>Now Being able to work in a fast-paced Agile environment, I started my journey as a
-                                freelancer in
-                                2016 as a general programmer in Java, C++, Python. I was building web scraping scripts,
-                                doodling
-                                around web technologies for data gathering where I was introduced to Flask framework, I
-                                implemented
-                                this framework for chat application, review website.</p>
+                            <p>I began my professional journey as a freelancer in 2016, developing expertise in programming languages such as Java, C++, and Python.
+                                My initial projects involved creating web scraping scripts and exploring data acquisition techniques,
+                                which led me to implement solutions like a chat application and a review website using the Flask framework.
+                                This early experience laid the foundation for my strong interest in web technologies and scalable application development.
+                            </p>
                             &nbsp;
 
-                            <p>Now I am that point of career with 4 years of experience in web development environment,
-                                I can work
-                                with fellow developers placed remotely or in-house, adaptable to all challenges thrown
-                                at me. I am
-                                able to work well both in a team environment as well as using own initiative. I am able
-                                to work well
-                                under pressure and adhere to strict deadlines.</p>
+                            <p>With over eight years of experience in web development,
+                                I have successfully transitioned into senior roles, contributing to the design and delivery of enterprise applications, microservices, and event-driven architectures.
+                                I am proficient in leading and collaborating with teams, both remotely and in-house, and have demonstrated adaptability in fast-paced Agile environments.
+                                My ability to handle complex challenges, meet tight deadlines, and consistently deliver high-quality results has been a hallmark of my career.</p>
                             <br/>
                         </div>
                     </div>

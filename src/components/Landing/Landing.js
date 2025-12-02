@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Sidebar from "../Sidebar/Sidebar";
 import Hero from "../Hero/Hero";
 import Skills from "../Skills/Skills";
+import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import MusicPlayer from "../MusicPlayer/MusicPlayer";
 
@@ -19,6 +20,7 @@ export let Landing = (props) => {
             >
                 <Hero />
                 <Skills />
+                <Experience />
                 <Projects />
             </motion.main>
 

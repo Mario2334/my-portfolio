@@ -3,29 +3,40 @@ import { motion } from 'framer-motion';
 
 const skillsData = [
     {
-        category: "Programming languages", skills: [
-            { name: "Python", level: 90 },
-            { name: "Rust", level: 80 },
-            { name: "Java", level: 70 },
-            { name: "HTML", level: 100 },
-            { name: "Javascript", level: 80 },
-            { name: "SASS/LESS", level: 60 },
-            { name: "Mysql", level: 80 },
-            { name: "Nosql", level: 100 },
-        ]
-    },
-    {
-        category: "Frameworks", skills: [
-            { name: "Flask/Django", level: 90 },
-            { name: "React JS", level: 80 },
-            { name: "Node JS", level: 70 },
-            { name: "Agile", level: 80 },
-        ]
-    },
-    {
         category: "Languages", skills: [
-            { name: "English (Fluent)", level: 100 },
-            { name: "Hindi(Fluent)", level: 100 },
+            { name: "Python", level: 95 },
+            { name: "Java", level: 85 },
+            { name: "C++", level: 75 },
+            { name: "Rust", level: 80 },
+            { name: "JavaScript", level: 85 },
+            { name: "SQL", level: 90 },
+        ]
+    },
+    {
+        category: "Frameworks & Libraries", skills: [
+            { name: "Django", level: 95 },
+            { name: "Flask/FastAPI", level: 90 },
+            { name: "Spring Boot", level: 85 },
+            { name: "React", level: 80 },
+            { name: "Node.js", level: 75 },
+            { name: "Langchain", level: 85 },
+        ]
+    },
+    {
+        category: "Cloud & Tools", skills: [
+            { name: "AWS", level: 90 },
+            { name: "Docker", level: 85 },
+            { name: "Kafka", level: 80 },
+            { name: "ELK Stack", level: 75 },
+            { name: "Git", level: 90 },
+        ]
+    },
+    {
+        category: "AI & Data", skills: [
+            { name: "LLM/RAG", level: 90 },
+            { name: "NLP", level: 80 },
+            { name: "PostgreSQL", level: 85 },
+            { name: "MySQL", level: 85 },
         ]
     }
 ];

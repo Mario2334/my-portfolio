@@ -1,26 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
-import Ezedox from "../../assets/images/Ezedox.png";
+import { ExternalLink } from 'lucide-react';
 import Work2 from "../../assets/images/Work2.jpeg";
 import WorkImage from "../../assets/images/WorkImage.jpeg";
-import repusight from "../../assets/images/repusight.png";
-import platformcore from "../../assets/images/platformCore.jpg";
 import datahub from "../../assets/images/datahub2.png";
 import swindle from "../../assets/images/swindle.jpg";
-import rudiger from "../../assets/images/rudiger.png";
-import dm from "../../assets/images/dm.jpeg";
 
 const projectsData = [
-    { title: "Decision Minds", img: dm, link: "https://www.decisionminds.com/", desc: "Log aggregation & analytics tool." },
-    { title: "Rudiger Woehrl", img: rudiger, link: "https://www.ruediger-woehrl.com/", desc: "E-commerce platform." },
-    { title: "Swindle", img: swindle, link: "https://chrome.google.com/webstore/detail/swindle", desc: "Chrome extension." },
-    { title: "Ezedox", img: Ezedox, link: "https://ezedox.com/", desc: "Document management system." },
-    { title: "OCR Technology", img: Work2, link: "https://github.com/Mario2334/OCR_Implementation", desc: "Optical Character Recognition." },
-    { title: "Job Scraper", img: WorkImage, link: "https://github.com/Mario2334/my_jobs", desc: "Automated job search tool." },
-    { title: "Repusight", img: repusight, link: "https://www.repusight.com/", desc: "Reputation management dashboard." },
-    { title: "PlatformCore", img: platformcore, link: "https://platformcore.com/", desc: "PaaS monitoring solution." },
-    { title: "Datahub", img: datahub, link: "https://www.decisionminds.com/datahub.html", desc: "Data migration utility." },
+    { title: "Swindle", img: swindle, link: "https://bit.ly/3hcr4YP", desc: "Python Playground and Report Viewer Extension." },
+    { title: "Job Scraper", img: WorkImage, link: "https://github.com/Mario2334/my_jobs", desc: "Automated job search tool with NLP." },
+    { title: "OCR Technology", img: Work2, link: "https://github.com/Mario2334/OCR_Implementation", desc: "Identity verification using Tesseract." },
+    { title: "Amazon Labs126", img: WorkImage, link: "#", desc: "Secure document ingestion & RAG system." },
+    { title: "Leo1 Payment Platform", img: WorkImage, link: "#", desc: "Fintech platform for fee payments & analytics." },
+    { title: "Pakama Fitness", img: WorkImage, link: "#", desc: "Smart fitness platform with AI/ML." },
+    { title: "Cloud Ops", img: WorkImage, link: "#", desc: "Cloud monitoring tool for AWS resources." },
+    { title: "Hubble", img: WorkImage, link: "#", desc: "Log aggregation and analysis tool." },
+    { title: "Tesseract Workspace", img: WorkImage, link: "#", desc: "Internal productivity platform." },
+    { title: "Datahub", img: datahub, link: "https://www.decisionminds.com/datahub.html", desc: "RDBMS to Snowflake migration tool." },
+    { title: "Success4", img: WorkImage, link: "#", desc: "Customer Success Management tool." },
 ];
 
 const Projects = () => {

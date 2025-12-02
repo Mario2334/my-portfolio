@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "file-loader": "6.2.0",
-    "react-router-dom": "6.28.0",
+    "framer-motion": "^12.23.25",
     "jquery": "3.7.1",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "lucide-react": "^0.555.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "6.28.0",
     "react-scripts": "5.0.1",
     "react-typed": "^2.0.12",
     "url-loader": "^4.1.1"

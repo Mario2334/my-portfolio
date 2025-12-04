@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const experienceData = [
@@ -107,6 +107,7 @@ const experienceData = [
 ];
 
 const Experience = () => {
+    const [showAll, setShowAll] = useState(false);
     return (
         <div className="container" id="experience" style={{ padding: '100px 20px' }}>
             <motion.h2
@@ -138,7 +139,7 @@ const Experience = () => {
                     display: 'none', // Hidden on mobile, shown on desktop via media query if needed, but for now keeping simple
                 }} />
 
-                {experienceData.map((item, index) => (
+                {experienceData.slice(0, showAll ? experienceData.length : 3).map((item, index) => (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, y: 30 }}
@@ -213,6 +214,26 @@ const Experience = () => {
                         </div>
                     </motion.div>
                 ))}
+            </div>
+
+            <div style={{ textAlign: 'center', marginTop: '40px' }}>
+                <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => setShowAll(!showAll)}
+                    style={{
+                        background: 'transparent',
+                        border: '1px solid var(--accent-color)',
+                        color: 'var(--accent-color)',
+                        padding: '12px 30px',
+                        borderRadius: '30px',
+                        fontSize: '16px',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease'
+                    }}
+                >
+                    {showAll ? 'Show Less' : 'Show More'}
+                </motion.button>
             </div>
         </div>
     );

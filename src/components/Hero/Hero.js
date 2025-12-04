@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail, Github } from 'lucide-react';
 import Pic3 from '../../assets/images/Pic3.jpeg'; // Reusing existing asset
 
 const Hero = () => {
@@ -108,6 +108,15 @@ const Hero = () => {
                             style={{ padding: '10px', background: 'rgba(255,255,255,0.05)', borderRadius: '50%' }}
                         >
                             <Mail size={24} color="var(--text-color)" />
+                        </motion.a>
+                        <motion.a
+                            whileHover={{ scale: 1.2, color: '#333' }}
+                            href="https://github.com/Mario2334"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ padding: '10px', background: 'rgba(255,255,255,0.05)', borderRadius: '50%' }}
+                        >
+                            <Github size={24} color="var(--text-color)" />
                         </motion.a>
                     </div>
                 </motion.div>

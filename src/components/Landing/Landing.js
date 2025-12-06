@@ -6,6 +6,7 @@ import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import MusicPlayer from "../MusicPlayer/MusicPlayer";
+import KeyProjects from "../KeyProjects/KeyProjects";
 
 export let Landing = (props) => {
     return (
@@ -22,6 +23,7 @@ export let Landing = (props) => {
                 <Skills />
                 <Experience />
                 <Projects />
+                <KeyProjects />
             </motion.main>
 
             <MusicPlayer />

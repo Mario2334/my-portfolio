@@ -10,14 +10,6 @@ const projectsData = [
     { title: "Swindle", img: swindle, link: "https://bit.ly/3hcr4YP", desc: "Python Playground and Report Viewer Extension." },
     { title: "Job Scraper", img: WorkImage, link: "https://github.com/Mario2334/my_jobs", desc: "Automated job search tool with NLP." },
     { title: "OCR Technology", img: Work2, link: "https://github.com/Mario2334/OCR_Implementation", desc: "Identity verification using Tesseract." },
-    { title: "Amazon Labs126", img: WorkImage, link: "#", desc: "Secure document ingestion & RAG system." },
-    { title: "Leo1 Payment Platform", img: WorkImage, link: "#", desc: "Fintech platform for fee payments & analytics." },
-    { title: "Pakama Fitness", img: WorkImage, link: "#", desc: "Smart fitness platform with AI/ML." },
-    { title: "Cloud Ops", img: WorkImage, link: "#", desc: "Cloud monitoring tool for AWS resources." },
-    { title: "Hubble", img: WorkImage, link: "#", desc: "Log aggregation and analysis tool." },
-    { title: "Tesseract Workspace", img: WorkImage, link: "#", desc: "Internal productivity platform." },
-    { title: "Datahub", img: datahub, link: "https://www.decisionminds.com/datahub.html", desc: "RDBMS to Snowflake migration tool." },
-    { title: "Success4", img: WorkImage, link: "#", desc: "Customer Success Management tool." },
 ];
 
 const Projects = () => {

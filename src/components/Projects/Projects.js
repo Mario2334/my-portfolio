@@ -5,8 +5,10 @@ import Work2 from "../../assets/images/Work2.jpeg";
 import WorkImage from "../../assets/images/WorkImage.jpeg";
 import datahub from "../../assets/images/datahub2.png";
 import swindle from "../../assets/images/swindle.jpg";
+import cliLogo from "../../assets/images/cli_logo.png";
 
 const projectsData = [
+    { title: "StartGen", img: cliLogo, link: "https://gemini.google.com/share/88650ae23c9e", desc: "AI-powered project scaffolding tool that generates complete codebases from plain English descriptions." },
     { title: "Swindle", img: swindle, link: "https://bit.ly/3hcr4YP", desc: "Python Playground and Report Viewer Extension." },
     { title: "Job Scraper", img: WorkImage, link: "https://github.com/Mario2334/my_jobs", desc: "Automated job search tool with NLP." },
     { title: "OCR Technology", img: Work2, link: "https://github.com/Mario2334/OCR_Implementation", desc: "Identity verification using Tesseract." },

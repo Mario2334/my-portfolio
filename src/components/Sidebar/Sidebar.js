@@ -1,12 +1,12 @@
 import React from 'react';
-import { Home, Folder, Linkedin, Mail, Github } from 'lucide-react';
+import { Home, Folder, Linkedin, Mail, Github, Code } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Sidebar = () => {
     const navItems = [
         { icon: Home, label: 'Home', href: '#home' },
         { icon: Folder, label: 'Projects', href: '#projects' },
-        { icon: Folder, label: 'Skills', href: '#skills' },
+        { icon: Code, label: 'Skills', href: '#skills' },
         { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/sanket-mokashi-95' }, // Assuming LinkedIn URL from context or generic
         { icon: Github, label: 'GitHub', href: 'https://github.com/Mario2334' },
         { icon: Mail, label: 'Contact', href: '#contact' },

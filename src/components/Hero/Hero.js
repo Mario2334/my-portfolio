@@ -140,7 +140,7 @@ const Hero = () => {
 
                     <div style={{ opacity: 0.9, lineHeight: '1.6' }}>
                         <p style={{ marginBottom: '15px' }}>
-                            Experienced Team Lead and Software Architect with over 8 years of expertise in designing, developing, and delivering scalable web and backend solutions using Python, Java, and C++.
+                            Experienced Team Lead and Software Architect with over 9 years of expertise in designing, developing, and delivering scalable web and backend solutions using Python, Java, and C++.
                         </p>
                         <p style={{ marginBottom: '15px' }}>
                             Proven track record in leading cross-functional teams in Agile environments, architecting robust systems, and implementing frameworks like Flask, FastAPI, and Spring Boot to power high-performance applications.

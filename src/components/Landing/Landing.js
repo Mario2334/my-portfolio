@@ -26,7 +26,7 @@ export let Landing = (props) => {
                 <KeyProjects />
             </motion.main>
 
-            <MusicPlayer />
+            {/* <MusicPlayer /> */}
 
             <motion.footer
                 initial={{ opacity: 0 }}
